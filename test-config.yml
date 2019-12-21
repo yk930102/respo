@@ -1,0 +1,26 @@
+server:
+  port: 8888
+  
+spring:
+  profiles: dev
+  application:
+    name: dev-name-01
+user:
+  name: wangwu
+  sex: 女
+---    
+spring:
+  profiles: test
+  application:
+    name: test-name-01
+user:
+  name: lisi
+  sex: 男
+---
+spring:
+  profiles: prod
+  application:
+    name: prod-name-01
+user:
+  name: zhangsan
+  sex: 男
